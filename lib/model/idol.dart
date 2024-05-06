@@ -12,8 +12,7 @@ class Idol with _$Idol {
     required final String title,
     required final String subTitle,
     required final String description,
-
   }) = _Idol;
-  
-  factory Idol.fromJson(Map<String, Object?> json) => _$IdolFromJson(json); 
+
+  factory Idol.fromJson(Map<String, Object?> json) => _$IdolFromJson(json);
 }

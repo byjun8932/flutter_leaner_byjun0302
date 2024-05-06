@@ -63,7 +63,7 @@ class InfoCard extends StatelessWidget {
           child: Row(
             children: [
               Icon(
-                isFavorite ? Icons.star : Icons.star_border ,
+                isFavorite ? Icons.star : Icons.star_border,
                 color: Colors.red,
               ),
               const Text('34'),
